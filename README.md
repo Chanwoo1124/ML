@@ -7,8 +7,9 @@
 | # | 주제 | 내용 |
 |---|------|------|
 | 01 | NumPy | 배열 생성, 인덱싱, 연산, 브로드캐스팅 |
-| 02 | Linear Regression | 가설, 손실함수, 경사하강법 |
-| 03 | Logistic Regression | (예정) |
+| 02 | Linear Regression | 가설, 손실함수, 경사하강법, 선형 vs 비선형 |
+| 03 | Data Analysis | 산점도·잔차 분석으로 선형성 판단 |
+| 04 | Logistic Regression | (예정) |
 
 ## 디렉토리 구조
 
@@ -32,6 +33,8 @@ pip install -e .
 # 예제 실행
 python 01_numpy/examples/01_array_basics.py
 python 02_linear_regression/examples/01_simple_linear_regression.py
+python 02_linear_regression/examples/02_linear_vs_nonlinear.py
+python 03_data_analysis/exercises/01_is_it_linear.py
 ```
 
 ## 요구사항

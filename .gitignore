@@ -9,6 +9,9 @@ build/
 .venv/
 venv/
 
+# Claude
+.claude/
+
 # IDE
 .vscode/
 .idea/
@@ -26,3 +29,7 @@ Thumbs.db
 *.csv
 *.xlsx
 !data/
+
+
+# test 파일
+test/
