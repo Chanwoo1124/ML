@@ -31,5 +31,12 @@ Thumbs.db
 !data/
 
 
+# 대용량 미디어 (class/animations 제외)
+*.gif
+!class/animations/*.gif
+
 # test 파일
 test/
+
+# 슬라이드 이미지/GIF
+class/slides/
