@@ -45,6 +45,7 @@ for epoch in range(1, epochs + 1):
         # MSE를 w, b로 편미분하면 이 식이 나온다 (체인룰 적용)
         grad_w += 2 * x * error
         grad_b += 2 * error
+        
 
         # loss 누적 (나중에 평균 낼 것)
         loss += error ** 2
